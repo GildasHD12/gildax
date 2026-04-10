@@ -1,0 +1,7 @@
+{
+  "name": "ZAYAMARKET-Le Marché Rapide",
+  "description": "Le supermarché en ligne n°1 en Afrique. Mini quantités, livraison express, et produits frais du quartier.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
