@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  VITE_GEMINI_API_KEY = "$VITE_GEMINI_API_KEY"
+  VITE_VEO_API_KEY = "$VITE_VEO_API_KEY"
