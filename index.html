@@ -55,8 +55,27 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
       }
-      .p { 
-        color: green, font-size: 20px}
+      
+      .root { 
+        color: green, 
+        font-size: 20px,
+        background-color: yellow,
+      }
+      button:hover {
+       background-color: brown}
+      button {
+        background-color: green,
+        padding:10px,
+        cursor:pointer,
+        margin:10px 25px,
+        border-radius:10px
+      }
+     h1{
+       color: red,
+       top:20px,
+       rigth:15px
+       left:18px
+     }
     </style>
   <script type="importmap">
 {
@@ -72,8 +91,10 @@
 <link rel="stylesheet" href="/index.css">
 </head>
   <body>
-    <div id="root"></div>
-    <p> Le site </p>
+    <div id="root">
+      <h1> Le site example </h1>
+      <button> Commencer </h1>
+    </div>
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
